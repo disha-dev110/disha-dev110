@@ -18,7 +18,7 @@
 ![Disha's GitHub stats](https://github-readme-stats.vercel.app/api?username=disha-dev110&show_icons=true&theme=radical)
 
 ### 🌟 Let's Connect
-- **LinkedIn** → [Disha Khatun](https://www.linkedin.com/in/disha-khatun-0561b0383/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/disha-khatun-0561b0383/)
 - **Email** → khatundisha949@gmail.com
 
 ---
