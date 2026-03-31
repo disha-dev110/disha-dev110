@@ -3,48 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Disha Khatun | Portfolio</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 40px;
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+            text-align: center;
+            max-width: 500px;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        h1 { font-size: 2.5rem; margin-bottom: 10px; color: #fff; }
+        p { font-size: 1.1rem; line-height: 1.6; margin-bottom: 20px; opacity: 0.9; }
+        .badge {
+            display: inline-block;
+            background: #e74c3c;
+            padding: 5px 15px;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            margin-bottom: 20px;
+        }
+        .btn {
+            display: inline-block;
+            text-decoration: none;
+            background: white;
+            color: #1e3c72;
+            padding: 12px 25px;
+            border-radius: 30px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .btn:hover { background: #e74c3c; color: white; transform: scale(1.05); }
+    </style>
 </head>
 <body>
-   <form action="#" method="post">
-    <h1 style="text-align:center;">Sing up Form</h1>
-    <hr>
-    <label for="user">Name:</label>
-    <input type="text" id="user"name="user" placeholder="user name">
-    <br>
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="usermail" placeholder="User Mail" required>
-    <br>
-    <label for="pass">Password</label>
-    <input type="password" id="pass" name="password" placeholder="Password">
-    <br>
-    <label for="phn">Phone</label>
-    <br>
-    <select name="code">
-        <option value="+880">+880</option>
-        <option value="+990">+990</option>
-        <option value="+110">+110</option>
-    
-
-    </select>
-    <input type="phone" id="phn" name="Phone" placeholder="123456789"required >
-    <br>
-    Gender:
-    <input type="radio" id="gnd1" name="Gender">
-    <label for="gnd">Male</label>
-    <input type="radio" id="gnd2" name="Gender">
-    <label for="gnd">Female</label>
-    <input type="radio" id="gnd3" name="Gender">
-    <label for="gnd">Others</label>
-    <br>
-    <leble for="date">Date of birth:</leble>
-    <input type="date" id="date" name="dob">
-    
-
-    
-
-
-   </form>
-
+    <div class="container">
+        <div class="badge">HSC Candidate 2026</div>
+        <h1>Hi, I'm Disha Khatun</h1>
+        <p>I am a passionate learner exploring the world of <b>Artificial Intelligence</b> and <b>Web Development</b>. My dream is to build technology that helps people.</p>
+        <a href="#" class="btn">View My Projects</a>
+    </div>
 </body>
 </html>
