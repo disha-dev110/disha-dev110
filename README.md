@@ -1,6 +1,6 @@
 # Hi, I'm Disha Khatun 👋
 
-**HSC Candidate (2026) | Passionate AI/ML & Web Development Learner | Future Microsoft Student Ambassador**
+**HSC Candidate (2026) | Passionate AI/ML & Web Development Learner |
 
 🌱 Currently learning: **Python, Machine Learning, HTML, CSS, JavaScript**  
 💡 I love building small projects and exploring Data Science & AI  
